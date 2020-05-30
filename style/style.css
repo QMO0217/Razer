@@ -1,0 +1,153 @@
+body {
+    margin:0px;
+}
+.banner {
+    width:80%;
+    position: absolute;
+    left: 10%;
+    font-family: "Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif;
+}
+.container {
+    overflow: hidden;
+    background: black;
+    height:90px;
+}
+.right {
+    float: right;
+    width: 400px;
+    margin-top:55px;
+}
+.right a {
+    color:#28FF28;
+    font-size: 16pt;
+    margin-left: 28px;
+    text-decoration: none;
+}
+.left {
+    float: left;
+    width: 60px;
+    height:60px;
+    margin:15px 0px 0px 60px;
+    background-image:url("http://assets.razerzone.com/eeimages/assets/global/navbar-logo.png");
+    background-size:contain;
+}
+.middle {
+    width: 220px;
+    height: 100px;
+    margin: 30px 150px;
+    background-image:url("https://d4kkpd69xt9l7.cloudfront.net/sys-master/images/h6c/he1/8858452525086/wordmark.svg");
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.imagetxt {
+    position:absolute;
+    left:50%;
+    top:8%;
+    font-size: 28pt;
+    color:white;
+    font-weight: bold;
+    transform: translate(-50%,-50%);
+}
+.imagetxt p {
+    font-size: 14pt;
+    margin-block-start: 0.3em;
+    margin-block-end: 0.3em;
+}
+.imagetxtbt {
+    position:absolute;
+    left:19%;
+    top:8%;
+    font-size: 28pt;
+    color:white;
+    font-weight: bold;
+    transform: translate(-50%,-50%);
+}
+.imagetxtlt {
+    position:absolute;
+    left:22%;
+    bottom:0%;
+    font-size: 28pt;
+    color:white;
+    font-weight: bold;
+    transform: translate(-50%,-50%);
+}
+.imagetxtrt {
+    position:absolute;
+    left:14%;
+    bottom:0%;
+    font-size: 28pt;
+    color:white;
+    font-weight: bold;
+    transform: translate(-50%,-50%);
+}
+.imagetxt2 {
+    position:absolute;
+    right:1%;
+    bottom:-3%;
+    font-weight: bold;
+    transform: translate(-50%,-50%);
+}
+.sidebar {
+    float:left;
+    width:50%;
+    text-align:center;
+    height:auto;
+    font-size:15px;
+    color:#ffffff;
+    font-weight:bold;
+    background-color:#cecece;
+}
+.rightbar {
+    width:50%;
+    text-align:center;
+    font-size:15px;
+    height:auto;
+    color:#f9c81e;
+    font-weight:bold;
+    background-color:#fffaf3;
+    float:left;
+}
+.footer {
+    height:125px;
+    text-align:center;
+
+    font-size:15px;
+    color:white;
+    font-weight:bold;
+    float:left;
+    background-color:black;
+}
+.footer ul {
+    text-align:left;
+    float:left;
+    list-style-type: none;
+    color:#BEBEBE;
+    margin-top:10px;
+}
+.footer ul p {
+    font-size: 14pt;
+    margin-block-start: 0.3em;
+    margin-block-end: 0.3em;
+}
+.footer ul a {
+    text-decoration: none;
+    color:#BEBEBE;
+    font-size: 10pt;
+}
+table{
+    border-collapse: collapse;
+}
+table td{
+    border: 8px #5b5b5b solid;
+}
+img {
+    border:0;
+}
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
